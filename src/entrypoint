@@ -1,4 +1,5 @@
 #!/bin/bash
+source /etc/bashrc
 
 chown -R ${APP_USER}:${APP_GROUP} ${APP_HOME}
 cd ${APP_HOME}
