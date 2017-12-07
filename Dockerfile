@@ -11,7 +11,6 @@ COPY src /
 
 RUN /tmp/install/oc-cloud9.sh
 
-EXPOSE 80
-EXPOSE 3000
+EXPOSE 8000
 
 ENTRYPOINT /entrypoint
