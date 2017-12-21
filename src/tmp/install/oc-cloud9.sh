@@ -16,6 +16,7 @@ curl -sSo /tmp/install/cloud9_ssh_install.sh https://raw.githubusercontent.com/c
 chmod a+x /tmp/install/cloud9_ssh_install.sh
 cd ${APP_HOME}
 mkdir -p /cloud9/build/standalone
+chmod a+w /cloud9/node_modules
 gosu ${APP_USER}:${APP_GROUP} /tmp/install/cloud9_ssh_install.sh
 
 cleanup
