@@ -1,7 +1,7 @@
 #!/bin/bash
 source /etc/bashrc
 
-chown -R ${APP_USER}:${APP_GROUP} ${APP_HOME} /cloud9/build
+chown -R ${APP_USER}:${APP_GROUP} ${APP_HOME} /cloud9
 cd ${APP_HOME}
 yum list installed glibc-static >/dev/null
 gosu ${APP_USER}:${APP_GROUP} /tmp/install/cloud9_ssh_install.sh
