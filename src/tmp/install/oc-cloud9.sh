@@ -5,7 +5,7 @@ set -x
 chmod a+rwx /tmp
 source /tmp/install/functions.sh
 
-install_software git glibc-static gcc make tmux tmux-devel which
+install_software git glibc-static gcc make which
 create_user_and_group
 git clone https://github.com/c9/core.git /cloud9
 cd /cloud9
