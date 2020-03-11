@@ -1,5 +1,5 @@
 # Docker image: Cloud9 IDE in CentOS 7	
-Running cloud9 on centos/nodejs8
+Running cloud9 on centos/nodejs12
 
 
 Usage:

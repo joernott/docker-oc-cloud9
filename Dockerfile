@@ -1,4 +1,4 @@
-FROM registry.ott-consult.de/oc/node8
+FROM registry.ott-consult.de/oc/node12
 LABEL MAINTAINER="joern.ott@ott-consult.de"
 
 ENV APP_USER=cloud9 \
